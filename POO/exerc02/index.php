@@ -11,7 +11,13 @@ $circle = new Circle();
 $rect->setWidth(2);
 $rect->setHeight(4);
 
+$circle->setRadius(1);
 
-echo $rect->area();
+echo "L'aire d'un rectangle est de: " .$rect->area()."<br/>";
+echo "Le perimetre du rectangle est de: " .$rect->perimeter()."<br/>";
 
-var_dump($rect, $circle);
+
+echo "L'aire d'un circle est de: " .$circle->area()."<br/>";
+echo "Le perimetre du circle est de: " .$circle->perimeter()."<br/>";
+
+// var_dump($rect, $circle);
